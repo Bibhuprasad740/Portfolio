@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 const Header = () => {
   return (
     <div className="mb-16 text-center relative">
-      <h1 className="text-6xl font-bold mb-6 animated-gradient">
+      <h1 className="text-4xl md:text-6xl  font-bold mb-6 animated-gradient">
         Bibhu Prasad Sahoo
       </h1>
       <div className="flex flex-wrap justify-center gap-6 text-gray-600 mb-8">
