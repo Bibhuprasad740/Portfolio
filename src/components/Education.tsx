@@ -3,7 +3,7 @@ const Education = () => {
     <section>
       <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-300 mb-8 relative">
         Education
-        <div className="absolute bottom-10 left-0 w-20 h-1 bg-green-600 rounded-full"></div>
+        <div className="absolute -bottom-5 left-0 w-20 h-1 bg-green-600 rounded-full"></div>
       </h2>
       <div className="section-card p-8 hover-card">
         <div className="flex flex-col md:flex-row justify-between items-start">

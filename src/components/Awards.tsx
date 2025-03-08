@@ -36,11 +36,11 @@ const Awards = () => {
     <section>
       <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-300 mb-8 relative">
         Awards & Achievements
-        <div className="absolute bottom-10 left-0 w-20 h-1 bg-pink-600 rounded-full"></div>
+        <div className="absolute -bottom-5 left-0 w-20 h-1 bg-pink-600 rounded-full"></div>
       </h2>
       <div className="grid md:grid-cols-2 gap-6">
         {awards.map((award, index) => (
-          <div key={index} className="section-card p-6 hover-card">
+          <div key={index} className="section-card p-6 dark:bg-gray-900 hover-card">
             <div className="flex justify-between items-start mb-3">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-300">{award.title}</h3>
               <div className="flex items-center gap-3">

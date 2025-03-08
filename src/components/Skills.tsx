@@ -1,6 +1,6 @@
 const skills = {
-  Languages: ['C/C++', 'JavaScript', 'Python', 'Dart'],
-  Technologies: ['React.js', 'Redux', 'Node.js', 'MongoDB', 'Firebase', 'ChatGPT', 'Express.js', 'Git', 'Latex']
+  Languages: ['C/C++', 'JavaScript', 'TypeScript', 'Python', 'Dart'],
+  Technologies: ['React.js', 'Redux', 'Node.js', 'MongoDB', 'Express.js', 'Flutter', 'Firebase', 'ChatGPT', 'Git', 'Latex', ]
 };
 
 const Skills = () => {
@@ -8,7 +8,7 @@ const Skills = () => {
     <section>
       <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-300 mb-8 relative">
         Skills
-        <div className="absolute bottom-10 left-0 w-16 h-1 bg-orange-600 rounded-full"></div>
+        <div className="absolute -bottom-5 left-0 w-16 h-1 bg-orange-600 rounded-full"></div>
       </h2>
       <div className="section-card p-8 hover-card space-y-6">
         {Object.entries(skills).map(([category, items]) => (
