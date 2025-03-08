@@ -23,7 +23,7 @@ function App() {
               <div className="absolute inset-0 -z-10 rounded-3xl"></div>
               <Projects />
             </div>
-            <div className="wave-pattern py-16 -mx-4 px-4 rounded-3xl">
+            <div className="wave-pattern py-16 sm:m-8 px-4 rounded-3xl ">
               <Education />
               <div className="mt-16">
                 <Skills />

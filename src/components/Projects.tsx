@@ -49,12 +49,12 @@ const Projects = () => {
                 <h3 className="text-2xl font-semibold text-gray-900 dark:text-gray-300">{project.name}</h3>
                 <div className="flex gap-3">
                   {project.github && (
-                    <a href={project.github} className="px-4 py-1 text-sm font-medium text-purple-600 border border-purple-600 rounded-full hover:bg-purple-600 hover:text-white transition-colors duration-300">
+                    <a href={project.github} target="_blank" className="px-4 py-1 text-sm font-medium text-purple-600 border border-purple-600 rounded-full hover:bg-purple-600 hover:text-white transition-colors duration-300">
                       Github
                     </a>
                   )}
                   {project.live && (
-                    <a href={project.live} className="px-4 py-1 text-sm font-medium text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300">
+                    <a href={project.live} target="_blank" className="px-4 py-1 text-sm font-medium text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300">
                       Live
                     </a>
                   )}
